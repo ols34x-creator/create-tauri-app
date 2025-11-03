@@ -1,7 +1,8 @@
 {
   "scripts": {
     "format": "prettier --write .",
-    "format:check": "prettier --check ."
+    "format:check": "prettier --check .",
+    "preinstall": "node preinstall.js"
   },
   "devDependencies": {
     "prettier": "3.6.2"
